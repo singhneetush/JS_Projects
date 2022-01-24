@@ -16,7 +16,7 @@ function addchapter(e) {
   /* newLi.classList.add('list-group-item') */
   newLi.className = "list-group-item d-flex justify-content-between";
   newLi.innerHTML = ` <h3 class="flex-grow-1">${currentChapterName}</h3>
-            <button class="btn btn-warning mx-3" type="button">Edit</button>
+            <button class="btn btn-warning mx-3" type="button" onclick="edithapter(this)">Edit</button>
             <button class="btn btn-danger" type="button" onclick="removeChapter(this)">Remove</button>`;
 
   parentList.appendChild(newLi);
