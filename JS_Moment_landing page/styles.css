@@ -1,0 +1,53 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Quicksand', sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+	height: 100vh;
+	color: black;
+	background-color: black;
+
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#time {
+	font-size: 8rem;
+	padding: 5px;
+}
+#date {
+	font-size: 4rem;
+	padding: 5px;
+}
+
+h1 {
+	margin-bottom: 3rem;
+	padding: 5px;
+	/* display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center; */
+}
+
+h2 {
+	margin-bottom: 0.5rem;
+	opacity: 0.6;
+	padding: 5px;
+}
+
+@media (max-width: 700px) {
+	#time {
+		font-size: 6rem;
+	}
+	#date {
+		font-size: 3rem;
+	}
+}
