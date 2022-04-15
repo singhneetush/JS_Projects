@@ -12,6 +12,9 @@ const guessSubmit = document.querySelector('.guessSubmit');
 
 let guessCount = 1; //set 1 , used to keep the track of chances left for the user
 let resetButton; //declared to be displayed when the game is over
+guessField.focus(); //helps to shipt the focus to the input field everytime submit button is clicked
+
+
 
 //declaring a function , that will probably control the entire functioning of the game
 
